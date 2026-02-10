@@ -1,0 +1,11 @@
+.cardHolder {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(500px, 1fr));
+    gap: 100px;
+    padding: 50px;
+}
+.card {
+    border: 1px solid  white;
+    border-radius: 20px;
+    padding: 20px;
+}

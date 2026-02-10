@@ -1,0 +1,12 @@
+.apiContainer {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+
+.apiCard {
+    padding: 50px;
+    border-radius: 20px;
+    border: 1.5px solid white;
+}

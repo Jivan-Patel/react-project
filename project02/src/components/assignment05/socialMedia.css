@@ -1,0 +1,46 @@
+.postContainer{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 50px;
+}
+
+.post {
+    width: 100%;
+    padding: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+}
+.post > h1 {
+    margin-bottom: 20px;
+}
+.post > p {
+    font-size: 1.25em;
+}
+.post p {
+    margin-bottom: 20px;
+}
+
+.likeSection button {
+  background: linear-gradient(135deg, #7F5CFF, #4DA3FF);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.likeSection button:hover {
+  transform: translateY(-2px);
+}
+
+.likeSection button:active {
+  transform: scale(0.95);
+}
+.likeSection button:disabled {
+    opacity: 0.5;
+}

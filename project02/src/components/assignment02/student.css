@@ -1,0 +1,12 @@
+.studentCardHolder {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.card{
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+    width: 400px;
+}

@@ -1,0 +1,106 @@
+.prodContainer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.searchBox {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.searchBox input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #3a3a3a;
+  background: #1e1e1e;
+  color: #eaeaea;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+.searchBox input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 2px rgba(4, 4, 4, 0.3);
+}
+
+
+.productCard {
+  width: 280px;
+  background: #1e1e1e;
+  border-radius: 14px;
+  overflow: hidden;
+  color: #eaeaea;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.8);
+}
+
+.imageBox {
+  height: 200px;
+  padding: 16px;
+  background: #2b2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageBox img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.category {
+  font-size: 12px;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #f5f5f5;
+}
+
+.description {
+  font-size: 14px;
+  color: #bdbdbd;
+  line-height: 1.4;
+}
+
+.rating {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #facc15;
+}
+
+.rating span {
+  color: #9ca3af;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #22c55e;
+}

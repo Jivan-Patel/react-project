@@ -1,0 +1,29 @@
+.apiCardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 50px;
+}
+
+
+.apicard b{
+    font-size: 1.1em;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+.apicard {
+    max-height: 500px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 24px;
+}
+
+.apicard .img{
+    text-align: center;
+}
+.apicard img{
+    width: 50%;
+    border-radius: 10px;
+}
