@@ -1,0 +1,14 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px;
+}
+.card{
+    height: 60vh;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.img{
+    width: 100%;
+    object-fit: contain;
+}

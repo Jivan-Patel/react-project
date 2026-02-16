@@ -1,0 +1,8 @@
+h1, input {
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 5px;
+}
