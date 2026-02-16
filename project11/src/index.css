@@ -18,7 +18,7 @@ form{
   padding: 50px;
   display: grid;
   grid-template-columns: 1fr;
-  max-width: 300px;
+  max-width: 400px;
   gap: 20px;
 }
 
@@ -28,7 +28,6 @@ input {
   border-radius: 10px;
   padding: 10px 25px;
   background: transparent;
-  max-width: 190px;
 }
 button {
   padding: 12.5px 30px;
